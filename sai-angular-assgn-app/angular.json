@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "sai-angular-assgn": {
+    "sai-angular-assgn-app": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/sai-angular-assgn",
+            "outputPath": "dist/sai-angular-assgn-app",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": ["zone.js"],
@@ -28,12 +28,7 @@
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
-            "scripts": [],
-            "server": "src/main.server.ts",
-            "outputMode": "server",
-            "ssr": {
-              "entry": "src/server.ts"
-            }
+            "scripts": []
           },
           "configurations": {
             "production": {
@@ -63,10 +58,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "sai-angular-assgn:build:production"
+              "buildTarget": "sai-angular-assgn-app:build:production"
             },
             "development": {
-              "buildTarget": "sai-angular-assgn:build:development"
+              "buildTarget": "sai-angular-assgn-app:build:development"
             }
           },
           "defaultConfiguration": "development"
