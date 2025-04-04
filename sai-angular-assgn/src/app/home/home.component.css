@@ -1,0 +1,52 @@
+.hero-section {
+  background: linear-gradient(135deg, #1d3557, #457b9d);
+  min-height: 60vh;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.gradient-text {
+  background: linear-gradient(to right, #00d4ff, #90f1ef);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.glow-btn {
+  border: 2px solid #fff;
+  transition: all 0.3s ease;
+}
+
+.glow-btn:hover {
+  background-color: white;
+  color: #1d3557;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
+}
+
+.features-section {
+  background-color: #f8f9fa;
+}
+
+.feature-card {
+  background: #ffffff;
+  border-radius: 16px;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+.feature-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+.btn-lg {
+  transition: all 0.3s ease;
+}
+
+.btn-lg:hover {
+  transform: translateY(-2px);
+}

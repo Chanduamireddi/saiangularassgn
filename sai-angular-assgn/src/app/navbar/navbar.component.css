@@ -1,0 +1,41 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1050;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: #fff;
+}
+
+.navbar-nav .nav-link {
+  color: #e0e0e0 !important;
+  position: relative;
+  transition: all 0.3s ease;
+  padding-bottom: 5px;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #00e0ff !important;
+  transform: translateY(-1px);
+}
+
+.navbar-nav .nav-link.active::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #00e0ff;
+  border-radius: 2px;
+  transition: width 0.3s ease;
+}
+
+.navbar-brand {
+  color: #ffffff !important;
+}
+
+.navbar-brand:hover {
+  transform: scale(1.08);
+  color: #00e0ff !important;
+  transition: transform 0.3s ease;
+}

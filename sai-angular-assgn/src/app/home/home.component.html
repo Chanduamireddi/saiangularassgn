@@ -1,0 +1,46 @@
+<section class="hero-section text-center text-white d-flex align-items-center">
+    <div class="container py-5">
+      <h1 class="display-3 fw-bold mb-3">Welcome to <span class="gradient-text">Sai Store</span></h1>
+      <p class="lead mb-4">Discover a modern mock eCommerce platform powered by Angular and Platzi's Fake Store API. Explore products, submit forms and more beautifully designed with Bootstrap 5.</p>
+      <div class="d-flex justify-content-center gap-3 flex-wrap">
+        <a [routerLink]="['/api-data']" class="btn btn-lg btn-outline-light px-4 glow-btn">
+          <i class="bi bi-bag-check-fill me-2"></i> Browse Products
+        </a>
+        <a [routerLink]="['/form']" class="btn btn-lg btn-light text-primary px-4 shadow">
+          <i class="bi bi-chat-dots me-2"></i> Contact Us
+        </a>
+      </div>
+    </div>
+  </section>
+  <section class="features-section py-5">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold text-dark">Why To Choose Sai Store?</h2>
+        <p class="text-muted">A demo shop designed with real features.</p>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="feature-card p-4 text-center">
+            <i class="bi bi-bag-fill display-4 text-warning mb-3"></i>
+            <h5 class="fw-bold mb-2">Real Product Feeds</h5>
+            <p class="text-muted">All items are pulled live from Platzi's Fake Store API real structure real filtering.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="feature-card p-4 text-center">
+            <i class="bi bi-phone display-4 text-primary mb-3"></i>
+            <h5 class="fw-bold mb-2">Fully Responsive</h5>
+            <p class="text-muted">Looks great on mobile, tablet and desktop with no extra work.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="feature-card p-4 text-center">
+            <i class="bi bi-send-check display-4 text-success mb-3"></i>
+            <h5 class="fw-bold mb-2">Interactive Form Page</h5>
+            <p class="text-muted">Submit your feedback using reactive forms with real-time validation.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
